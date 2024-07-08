@@ -22,7 +22,7 @@ class Soal1Controller extends Controller
     public function index(){
 
         $arr=[
-            '1'=>'',
+            '1'=>'Meja',
             '2'=>'Kursi',
             '3'=>'Pintu',
             '4'=>'Lemari',
@@ -31,8 +31,8 @@ class Soal1Controller extends Controller
             '7'=>'Jendela',
             '8'=>'Televisi',
         ];
-        
-      return  $this->get_array($arr);
+      $nilai=  $this->get_array($arr);
+      return $nilai ;
 
         // $data=[
         //     'title'=>'Soal Nomor 1',
